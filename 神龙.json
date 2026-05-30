@@ -423,7 +423,7 @@
             "name": "🟢橘汁☪影视",
             "key": "Woshinidie",
             "type": 3,
-            "jar": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/jar/5.jar;md5;76d835a5c630383e9fd851399579220c",
+            "jar": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/jar/5.jar",
             "api": "csp_Woshinidie",
             "searchable": 1,
             "quickSearch": 1,
@@ -447,7 +447,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/json/毒蛇.json"
+      "ext": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/json/%E6%AF%92%E8%9B%87.json"
         },
         {
             "name": "🟢剑锋☪影视",
