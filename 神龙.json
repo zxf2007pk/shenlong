@@ -498,16 +498,6 @@
             "ext": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/jar/8.json"
         },
         {
-            "name": "🟢哔嘀☪影视",
-            "key": "Bidys",
-            "type": 3,
-            "api": "csp_BidysAmns",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "ext": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/jar/9.de"
-        },
-        {
             "name": "🟢场长☪影视",
             "key": "Czzy",
             "type": 3,
