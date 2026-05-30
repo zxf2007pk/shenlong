@@ -1,6 +1,6 @@
 {
-    "spider": "https://github.com/zxf2007pk/shenlong/blob/main/%E7%A5%9E%E9%BE%99.jar",
-    "logo": "https://github.com/zxf2007pk/shenlong/blob/main/jar/6.gif",
+    "spider": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/%E7%A5%9E%E9%BE%99.jar",
+    "logo": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/jar/6.gif",
     "danmaku": "http://127.0.0.1:2525/danmu?name={name}&epid={episode}",
     "sites": [
         {
@@ -13,7 +13,7 @@
             "filterable": 0,
             "quickSearch": 0,
             "changeable": 0,
-            "ext": "https://github.com/zxf2007pk/shenlong/blob/main/jar/2.json"
+            "ext": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/jar/2.json"
         },
         {
             "name": "🟢配置☪中心",
@@ -143,7 +143,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,
-            "ext": "https://github.com/zxf2007pk/shenlong/blob/main/jar/3.json"
+            "ext": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/jar/3.json"
         },
         {
             "name": "🟢四海☪网盘",
@@ -153,7 +153,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,
-            "ext": "https://github.com/zxf2007pk/shenlong/blob/main/jar/4.json"
+            "ext": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/jar/4.json"
         },
         {
       "key": "神帝",
@@ -215,13 +215,13 @@
       "quickSearch": 1,
       "filterable": 1,
       "order_num": 0,
-      "ext": "https://github.com/zxf2007pk/shenlong/blob/main/js/央视大全.js"
+      "ext": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/js/央视大全.js"
     },
     {
       "key": "央视影视",
       "name": "🟢央视☪综艺",
       "type": 3,
-      "api": "https://github.com/zxf2007pk/shenlong/blob/main/js/央视影视.py",
+      "api": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/js/央视影视.py",
       "searchable": 1,
       "changeable": 1,
       "quickSearch": 1,
@@ -232,32 +232,32 @@
       "key": "tenteng",
       "name": "🟢腾讯☪影视",
       "type": 3,
-      "api": "https://github.com/zxf2007pk/shenlong/blob/main/js/drpy2.min.js",
-      "ext": "https://github.com/zxf2007pk/shenlong/blob/main/js/腾腾.js"
+      "api": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/js/drpy2.min.js",
+      "ext": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/js/腾腾.js"
     },
     {
       "key": "qiqi",
       "name": "🟢奇艺☪影视",
       "type": 3,
-      "api": "https://github.com/zxf2007pk/shenlong/blob/main/js/drpy2.min.js",
-      "ext": "https://github.com/zxf2007pk/shenlong/blob/main/js/奇奇.js"
+      "api": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/js/drpy2.min.js",
+      "ext": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/js/奇奇.js"
     },
     {
       "key": "mangmang",
       "name": "🟢芒果☪影视",
       "type": 3,
-      "api": "https://github.com/zxf2007pk/shenlong/blob/main/js/drpy2.min.js",
-      "ext": "https://github.com/zxf2007pk/shenlong/blob/main/js/茫茫.js"
+      "api": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/js/drpy2.min.js",
+      "ext": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/js/茫茫.js"
     },
     {
       "key": "youyou",
       "name": "🟢优酷☪影视",
       "type": 3,
-      "api": "https://github.com/zxf2007pk/shenlong/blob/main/js/drpy2.min.js",
-      "ext": "https://github.com/zxf2007pk/shenlong/blob/main/优优.js"
+      "api": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/js/drpy2.min.js",
+      "ext": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/优优.js"
     },
     {
-      "api": "https://github.com/zxf2007pk/shenlong/blob/main/py/TVB云播.py",
+      "api": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/py/TVB云播.py",
       "filterable": 1,
       "key": "TVB云播",
       "name": "🟢蹄衛☪影视",
@@ -267,7 +267,7 @@
       "type": 3
     },
     {
-      "api": "https://github.com/zxf2007pk/shenlong/blob/main/py/月光.py",
+      "api": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/py/月光.py",
       "filterable": 1,
       "key": "月光影视",
       "name": "🟢月光☪影视",
@@ -423,7 +423,7 @@
             "name": "🟢橘汁☪影视",
             "key": "Woshinidie",
             "type": 3,
-            "jar": "https://github.com/zxf2007pk/shenlong/blob/main/jar/5.jar;md5;76d835a5c630383e9fd851399579220c",
+            "jar": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/jar/5.jar;md5;76d835a5c630383e9fd851399579220c",
             "api": "csp_Woshinidie",
             "searchable": 1,
             "quickSearch": 1,
@@ -442,12 +442,12 @@
       "key": "毒蛇",
       "name": "🟢毒蛇☪影视",
       "type": 3,
-      "jar": "https://github.com/zxf2007pk/shenlong/blob/main/jar/XBPQ250816.jar",
+      "jar": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/jar/XBPQ250816.jar",
       "api": "csp_XBPQ",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://github.com/zxf2007pk/shenlong/blob/main/json/毒蛇.json"
+      "ext": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/json/毒蛇.json"
         },
         {
             "name": "🟢剑锋☪影视",
@@ -457,7 +457,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,
-            "ext": "https://github.com/zxf2007pk/shenlong/blob/main/jar/6.json"
+            "ext": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/jar/6.json"
         },
         {
             "name": "🟢热播☪影视",
@@ -495,7 +495,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,
-            "ext": "https://github.com/zxf2007pk/shenlong/blob/main/jar/8.json"
+            "ext": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/jar/8.json"
         },
         {
             "name": "🟢哔嘀☪影视",
@@ -505,7 +505,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,
-            "ext": "https://github.com/zxf2007pk/shenlong/blob/main/jar/9.de"
+            "ext": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/jar/9.de"
         },
         {
             "name": "🟢场长☪影视",
@@ -863,7 +863,7 @@
             "filterable": 0,
             "quickSearch": 0,
             "changeable": 0,
-            "ext": "https://github.com/zxf2007pk/shenlong/blob/main/jar/10.json"
+            "ext": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/jar/10.json"
         },
         {
             "name": "🟢魚神☪盘搜",
