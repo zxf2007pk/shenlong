@@ -1,5 +1,5 @@
 {
-    "spider": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/%E7%A5%9E%E9%BE%99.jar",
+    "spider": "./jar/神龙.jar",
     "logo": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/jar/6.gif",
     "danmaku": "http://127.0.0.1:2525/danmu?name={name}&epid={episode}",
     "sites": [
@@ -254,7 +254,7 @@
       "name": "🟢优酷☪影视",
       "type": 3,
       "api": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/js/drpy2.min.js",
-      "ext": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/优优.js"
+      "ext": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/优酷.js"
     },
     {
       "api": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/py/TVB云播.py",
@@ -455,15 +455,6 @@
             "key": "JinPai",
             "type": 3,
             "api": "csp_JinPaiAmns",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0
-        },
-        {
-            "name": "🟢伊外☪影视",
-            "key": "YIys",
-            "type": 3,
-            "api": "csp_YIysAmns",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0
