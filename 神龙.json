@@ -277,6 +277,25 @@
       "searchable": 1,
       "type": 3
     },
+	{
+            "name": "🟢橘汁☪影视",
+            "key": "Woshinidie",
+            "type": 3,
+            "jar": "https://zl.wpscdn.cn/2026/06/01/space_img/8ec1dbc0-101c-410c-bfe1-0b47a2e6d54c.png;md5;76d835a5c630383e9fd851399579220c",
+            "api": "csp_Woshinidie",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": {
+                "host": "",
+                "version": "3.0.2.1",
+                "abid": "8192",
+                "pkg": "com.lxf.snzlcgtzxyx",
+                "keys": "DGVQRUX5R1LWWDLHTGJSUKG1DJRVPQ==,OC1A06E197EF10CF3F6058CA7A803B5E",
+                "site": "https://123-1349250429.cos.ap-shanghai.myqcloud.com/app.txt",
+                "pub": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr8SzZhjYy+rsya1K09t8d2K50pWFoBkgUqMpKOiW+3IEVKd4eTdvg9RSOjQ82kypL6R9BnsmrS1V8s4PVDwjQbUtYhTPPC9Hz16qY7rpD6m0d2vr09/UpWQ5uOy9PR0QTrsioveZ+DIe9jc3C+zBCu/kZSY/R8stwJoiitki3gwIDAQAB"
+            }
+    },	
     {
       "key": "电影天堂",
       "name": "🟢天堂☪影视",
