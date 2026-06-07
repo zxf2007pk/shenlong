@@ -26,6 +26,20 @@
             "quickSearch": 0,
             "changeable": 0
         },
+	    {
+        "name": "🟢神仙☪弹幕",
+        "key": "神仙弹幕",
+        "type": 3,
+        "jar": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/jar/danmu.jar",
+        "api": "csp_DanmakuSpider",
+        "searchable": 1,
+        "ext": {
+        "apiUrl": "https://danmu2028.netlify.app/87654321",
+        "autoPushEnabled": true,
+        "danmakuStyle": "模板一",
+        "lpAlpha": 0.9
+       }
+    },
         {
             "name": "🟢玩偶☪网盘",
             "key": "woWogg",
@@ -498,7 +512,7 @@
             "quickSearch": 1,
             "changeable": 0,
             "ext": {
-                "sites": "https://czzyv.com,https://www.czzy89.com,https://www.cz01.org",
+                "sites": "https://www.4kcz.com/,https://www.cz01.org",
                 "filters": ""
             }
         },
