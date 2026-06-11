@@ -14,7 +14,7 @@
             "filterable": 0,
             "quickSearch": 0,
             "changeable": 0,
-            "ext": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/jar/2.json"
+            "ext": "https://file.icve.com.cn/file_doc/803/892/C8FDF0894D61FA21A937E21135CB9125.aowu"
         },
         {
             "name": "🟢配置☪中心",
@@ -58,7 +58,7 @@
                     "https://www.wogg.one",
                     "https://www.wogg.live"
                 ],
-                "filters": "http://52xinghe.top/aowu/json/wogg.json"
+                "filters": "https://file.icve.com.cn/file_doc/749/902/BB6E1B79DF03CD16DDAC84F2FF266BD4.aowu"
             }
         },
         {
@@ -74,7 +74,7 @@
                     "http://123.666291.xyz",
                     "https://666.666291.xyz"
                 ],
-                "filters": "http://52xinghe.top/aowu/json/womo.json"
+                "filters": "https://file.icve.com.cn/file_doc/935/355/E9E58D35BEEAC71C7F303347F9998D6D.aowu"
             }
         },
 		{
@@ -96,7 +96,7 @@
                     "https://zhizhen8.click",
                     "https://www.zhizhen8.click"
                 ],
-                "filters": "http://52xinghe.top/aowu/json/wozz.json"
+                "filters": "https://nos.netease.com/youdata-netease/public-utilUpload-s6K76HZouKrRvZWR9sSwS6.gz"
             }
         },
         {
@@ -113,7 +113,7 @@
                     "https://tv.yydsys.cc",
                     "https://tv.214521.xyz"
                 ],
-                "filters": "http://52xinghe.top/aowu/json/wodd.json"
+                "filters": "https://file.icve.com.cn/file_doc/96/840/182D20892E75022992BBFD3EEECA3195.aowu"
             }
         },
 		{
@@ -132,7 +132,7 @@
                     "https://www.2xiaozhan.top",
                     "https://wexwp.cc"
                 ],
-                "filters": "http://52xinghe.top/aowu/json/woex.json"
+                "filters": "https://nos.netease.com/youdata-netease/public-utilUpload-w2jwT7HaUo1qS2S3ftXQuU.gz"
             }
         },
         {
@@ -147,7 +147,7 @@
                 "sites": [
                     "http://103.45.162.207:20720"
                 ],
-                "filters": "http://52xinghe.top/aowu/json/wohb.json"
+                "filters": "https://nos.netease.com/youdata-netease/public-utilUpload-vcNMZx1iu3Tkzr4fckQvoW.gz"
             }
         },
         {
@@ -158,17 +158,17 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,
-            "ext": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/jar/3.json"
+            "ext": "https://nos.netease.com/youdata-netease/public-utilUpload-fVP3F3EpDeP3hiqPYunAJ.gz"
         },
         {
-            "name": "🟢四海☪网盘",
+            "name": "🟢诗海☪网盘",
             "key": "SeedHub",
             "type": 3,
             "api": "csp_SeedHubAmns",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,
-            "ext": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/jar/4.json"
+            "ext": "http://104.243.25.80,https://sidhub.cc,https://seeduck.cc,https://hubdog.cc"
         },
         {
       "key": "神帝",
@@ -321,7 +321,7 @@
             "changeable": 0,
             "ext": {
                 "sites": "",
-                "filters": "http://52xinghe.top/aowu/json/guazi.json"
+                "filters": "https://file.icve.com.cn/file_doc/822/528/CD984013F5776F759DFC815995F87BFB.aowu"
             }
         },
         {
@@ -462,7 +462,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,
-            "ext": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/jar/6.json"
+            "ext": "https://nos.netease.com/youdata-netease/public-utilUpload-ky1PAyMa8zMhSwSbYeoej9.gz"
         },
         {
             "name": "🟢热播☪影视",
@@ -491,7 +491,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,
-            "ext": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/jar/8.json"
+            "ext": "https://nos.netease.com/youdata-netease/public-utilUpload-dETsDhhkydVym6T7qzn7WB.gz"
         },
         {
             "name": "🟢场长☪影视",
@@ -710,7 +710,7 @@
             "changeable": 0,
             "ext": {
                 "home": "1",
-                "json": "http://52xinghe.top/aowu/json/bili.json",
+                "json": "https://nos.netease.com/youdata-netease/public-utilUpload-k6DvN2PqNEVLhPeiigkmji.gz",
                 "cookie": ""
             },
             "style": {
@@ -727,7 +727,7 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "json": "http://52xinghe.top/aowu/json/bilisong.json",
+                "json": "https://cdn.waimaimingtang.com/file/images/bwc/20260527100843-9aefe070b5.aowu",
                 "cookie": ""
             },
             "style": {
@@ -744,7 +744,7 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "json": "http://52xinghe.top/aowu/json/bilixiqu.json",
+                "json": "https://cdn.waimaimingtang.com/file/images/bwc/20260527100913-7601517540.aowu",
                 "cookie": ""
             },
             "style": {
@@ -761,7 +761,7 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "json": "http://52xinghe.top/aowu/json/bilisr.json",
+                "json": "https://nos.netease.com/youdata-netease/public-utilUpload-7y79ukN4TsLcdydmg5TFRj.gz",
                 "cookie": ""
             },
             "style": {
@@ -778,7 +778,7 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "json": "http://52xinghe.top/aowu/json/bilixx.json",
+                "json": "https://nos.netease.com/youdata-netease/public-utilUpload-4VMpA5z1erwuRYyDVSkc9T.gz",
                 "cookie": ""
             },
             "style": {
@@ -795,7 +795,7 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "json": "http://52xinghe.top/aowu/json/bilicz.json",
+                "json": "https://file.icve.com.cn/file_doc/281/941/466EB55404EAB8AD6EC37A5F73444B27.aowu",
                 "cookie": ""
             },
             "style": {
@@ -812,7 +812,7 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "json": "http://52xinghe.top/aowu/json/biligz.json",
+                "json": "https://nos.netease.com/youdata-netease/public-utilUpload-vsfDQmE86Ei5LCTWJ2X6Nv.gz",
                 "cookie": ""
             },
             "style": {
