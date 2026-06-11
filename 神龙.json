@@ -281,16 +281,6 @@
       "searchable": 1,
       "type": 3
     },
-    {
-      "api": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/py/月光.py",
-      "filterable": 1,
-      "key": "月光影视",
-      "name": "🟢月光☪影视",
-      "quickSearch": 1,
-      "searchable": 1,
-      "searchable": 1,
-      "type": 3
-    },
 	{
             "name": "🟢橘汁☪影视",
             "key": "Woshinidie",
