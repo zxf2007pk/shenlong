@@ -272,6 +272,27 @@
       "ext": "https://qist.swsixtwo.top/js/%E4%BC%98%E9%85%B7.js"
     },
     {
+      "key": "剧迷4k",
+      "name": "🟢剧迷☪影视",
+      "type": 3,
+      "jar": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/jar/xbpq250816.jar",
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/json/剧迷4K.json"
+    },
+    {
+      "api": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/py/枫叶.py",
+      "filterable": 1,
+      "key": "枫叶4K",
+      "name": "🟢枫叶☪影视",
+      "quickSearch": 1,
+      "searchable": 1,
+      "searchable": 1,
+      "type": 3
+    },
+    {
       "api": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/py/TVB云播.py",
       "filterable": 1,
       "key": "TVB云播",
