@@ -80,7 +80,9 @@
             "ext": {
                 "sites": [
                     "http://666.666291.xyz",
-                    "https://666.666291.xyz"
+                    "https://666.666291.xyz",
+					"http://123.666291.xyz",
+					"http://123.666291.xyz"
                 ],
                 "filters": "https://file.icve.com.cn/file_doc/228/492/3907B2A1627FC9339187FC273536F5D1.aowu"
             }
