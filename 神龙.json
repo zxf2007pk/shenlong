@@ -26,6 +26,19 @@
             "quickSearch": 0,
             "changeable": 0
         },
+		{
+           "key": "ConfigCenter",
+           "name": "🔰真心☪弹幕",
+           "type": 3,
+           "jar": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/jar/真心.jar",
+           "api": "csp_ConfigCenter",
+           "searchable": 0,
+           "changeable": 0,
+           "ext": {
+           "commonConfig": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/json/peizhi.json",
+           "services":"https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/json/services.json"
+           }
+        },
 	    {
         "name": "🔰神仙☪弹幕",
         "key": "神仙弹幕",
