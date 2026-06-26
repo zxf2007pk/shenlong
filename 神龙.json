@@ -47,7 +47,7 @@
         "api": "csp_DanmakuSpider",
         "searchable": 1,
         "ext": {
-        "apiUrl": "https://danmu9999.netlify.app/87654321",
+        "apiUrl": "http://127.0.0.1:9321/87654321,https://danmu9999.netlify.app/87654321",
         "autoPushEnabled": true,
         "danmakuStyle": "模板一",
         "lpAlpha": 0.9
