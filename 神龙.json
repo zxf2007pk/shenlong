@@ -326,15 +326,7 @@
       "type": 3,
 	  "jar": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/jar/潇洒.jar",
       "api": "csp_App3Q"
-    },
-    {
-      "key": "韩圈",
-      "name": "🔰韩圈☪影视",
-      "type": 3,
-	  "jar": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/jar/潇洒.jar",
-      "api": "csp_Hxq",
-      "ext": "https://fishapi.wya6.com/fish/fishhxq.php"
-    },  
+    }, 
     {
       "key": "久久",
       "name": "🔰久久☪影视",
