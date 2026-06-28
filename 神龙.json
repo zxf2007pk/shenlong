@@ -1,7 +1,6 @@
 {
     "spider": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/神龙.jar",
     "logo": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/jar/6.gif",
-    "danmaku": "http://127.0.0.1:2525/danmu?name={name}&epid={episode}",
 	"wallpaper": "https://picsum.photos/1080/",
     "sites": [
         {
