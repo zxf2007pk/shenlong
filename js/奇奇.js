@@ -1339,7 +1339,7 @@ var rule = {
     play_parse: true,
     lazy: $js.toString(() => {
         try {
-            let api = "http://127.0.0.1:9978/proxy?do=seachdanmu&go=getuserjx&url=" + input.split("?")[0];
+            let api = "" + input.split("?")[0];
             console.log(api);
             let response = fetch(api, {
                 method: 'get',
@@ -1360,7 +1360,7 @@ var rule = {
                     parse: 0,
                     url: bata.url,
                     jx: 0,
-                    danmaku: 'http://127.0.0.1:9978/proxy?do=danmu&url='+input.split("?")[0]
+                    danmaku: ''+input.split("?")[0]
                 };
             }else {
                 input = {
@@ -1370,7 +1370,7 @@ var rule = {
                     parse: 0,
                     url: input.split("?")[0],
                     jx: 1,
-                    danmaku: 'http://127.0.0.1:9978/proxy?do=danmu&url='+input.split("?")[0]
+                    danmaku: ''+input.split("?")[0]
                 };
             }
         } catch {
@@ -1381,7 +1381,7 @@ var rule = {
                 parse: 0,
                 url: input.split("?")[0],
                 jx: 1,
-                danmaku: 'http://127.0.0.1:9978/proxy?do=danmu&url='+input.split("?")[0]
+                danmaku: ''+input.split("?")[0]
             };
         }
     }),
