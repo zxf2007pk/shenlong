@@ -1140,15 +1140,41 @@
     "ads": [
         "mozai.4gtv.tv"
     ],
-    "lives": [
-	   {
-            "name": "电视", 
-            "type": 0, 
-            "url": "https://gh-proxy.com/raw.githubusercontent.com/yoursmile66/TVBox/main/live.txt", 
-            "playerType": 2, 
-            "ua": "okhttp/3.15", 
-            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}", 
-            "logo": "https://epg.112114.xyz/logo/{name}.png"
+   "lives": [
+        {
+            "name": "🔰体育",
+            "type": 0,
+            "url": "http://82.156.243.185:33389/fwc.m3u"
+        },
+        {
+            "name": "🔰咪咕",
+            "type": 0,
+            "url": "https://gh-proxy.com/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
+            "ua": "okHttp/Mod-1.1.0"
+        },
+        {
+            "name": "🔰虎牙",
+            "type": 0,
+            "url": "https://sub.ottiptv.cc/huyayqk.m3u",
+            "ua": ""
+        },
+        {
+            "name": "🔰斗鱼",
+            "type": 0,
+            "url": "https://sub.ottiptv.cc/douyuyqk.m3u",
+            "ua": ""
+        },
+        {
+            "name": "🔰歪歪Y",
+            "type": 0,
+            "url": "https://sub.ottiptv.cc/yylunbo.m3u",
+            "ua": ""
+        },
+        {
+            "name": "🔰哔哩",
+            "type": 0,
+            "url": "https://sub.ottiptv.cc/bililive.m3u",
+            "ua": ""
         }
     ],
     "ijk": [
