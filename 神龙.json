@@ -246,14 +246,37 @@
       "ext": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/js/优优.js"
     },
     {
-      "api": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/py/枫叶.py",
-      "filterable": 1,
-      "key": "枫叶4K",
+      "key": "枫叶4k",
       "name": "🔰枫叶☪影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/jar/XBPQ250816.jar",
+      "searchable": 1,
       "quickSearch": 1,
-      "searchable": 1,
-      "searchable": 1,
-      "type": 3
+      "filterable": 1,
+      "ext": {
+        "请求头": "User-Agent$Mozilla/5.0 (Linux; Android 13; M2102J2SC Build/TKQ1.221114.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/148.0.7778.28 Mobile Safari/537.36#referer$https://www.cd-zj.com/",
+        "跳转播放链接": "https://fgsrg.hzqingshan.com/player/?url=+var player_*url\":\"&&\"",
+        "二次跳转播放链接": "https://fgsrg.hzqingshan.com/player/mplayer.php?url=+data-u=\"&&\"+&token=+data-te=\"&&\"",
+        "三次跳转播放链接": "j:url",
+        "数组": "p:.public-list-box",
+        "标题": "p:.thumb-txt->text||p:->title",
+        "副标题": "p:span.public-list-prb->text",
+        "图片": "p:->data-src",
+        "链接": "p:->href",
+        "线路数组": "p:a.swiper-slide",
+        "线路标题": "p:a->text",
+        "播放数组": "p:ul.anthology-list-play",
+        "播放列表": "p:a",
+        "播放标题": "p:->text",
+        "播放链接": "p:->href",
+        "分类url": "https://www.cd-zj.com/cupfox-list/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+        "分类": "#电影$1#电视剧$2#动漫$4#综艺$3#短剧$5",
+        "简介": "p:div.text->text",
+        "倒序": "1",
+        "搜索模式": "1",
+        "搜索url": "https://www.cd-zj.com/cupfox-search/{wd}----------{pg}---.html"
+      }
     },
 	{
       "api": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/py/山楂.py",
