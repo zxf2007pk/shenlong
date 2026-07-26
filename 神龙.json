@@ -350,28 +350,6 @@
       "api": "csp_App3Q"
     }, 
     {
-      "key": "久久",
-      "name": "🔰久久☪影视",
-      "type": 3,
-	  "jar": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/jar/潇洒.jar",
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://99cms.jj99.icu:8199/api.php/app/"
-    },
-    {
-      "key": "闪影",
-      "name": "🔰闪影☪影视",
-      "type": 3,
-	  "jar": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/jar/潇洒.jar",
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://38.47.213.61:41271/mogai_api.php/v1.vod"
-    },
-    {
       "key": "飞飞",
       "name": "🔰菲菲☪影视",
       "type": 3,
