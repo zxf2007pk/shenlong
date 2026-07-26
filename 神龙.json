@@ -270,8 +270,8 @@
         "播放列表": "p:a",
         "播放标题": "p:->text",
         "播放链接": "p:->href",
-        "分类url": "https://www.maihaolian.com/cupfox-list/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
-        "分类": "#电影$1#电视剧$2#动漫$4#综艺$3#短剧$5",
+        "分类url": "https://www.maihaolian.com/{cateId}/page/{catePg}.html",
+        "分类": "#腾讯$label/qq#哔哩$label/bli#优酷$label/youku#短剧$label/duanju",
         "简介": "p:div.text->text",
         "倒序": "1",
         "搜索模式": "1",
@@ -288,6 +288,21 @@
       "searchable": 1,
       "type": 3
     },
+	{
+  "key": "爱影",
+  "name": "🔰爱影☪影视",
+  "type": 3,
+  "api": "csp_AppQi",
+  "searchable": 1,
+  "changeable": 1,
+  "ext": {
+    "site": "https://aysappto.oss-cn-chengdu.aliyuncs.com/q26.txt",
+    "dataKey": "0UKM8jkasM8tdzgW",
+    "dataIv": "0UKM8jkasM8tdzgW",
+    "init": "initV122",
+    "search": "mineInfo",
+    "ua": "okhttp/3.10.0"
+  },
 	{
       "key": "苹果",
       "name": "🔰苹果☪影视",
