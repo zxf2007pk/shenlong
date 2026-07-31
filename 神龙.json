@@ -643,8 +643,9 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0
-        },{
-            "name": "🔰短剧☪推荐",
+        },
+		{
+            "name": "🔰推荐☪短剧",
             "key": "Hgdh",
             "type": 3,
             "api": "csp_HgdhAmns",
@@ -654,7 +655,7 @@
             "genre": "shortdrama",
             "ext": "https://nos.netease.com/ysf/dac0101040005285380ee886e6e6c660.aowu"
         },
-        {
+		{
             "name": "🔰动漫☪剧场",
             "key": "MjHggg",
             "type": 3,
