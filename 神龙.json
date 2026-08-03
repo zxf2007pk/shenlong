@@ -170,6 +170,43 @@
             "changeable": 0,
             "ext": "https://nos.netease.com/youdata-netease/public-utilUpload-fVP3F3EpDeP3hiqPYunAJ.gz"
         },
+	    {
+            "name": "🔰原盘☪网盘",
+            "key": "Zhinan",
+            "type": 3,
+            "api": "csp_ZhinanAmns",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": "https://4kzn.cc"
+        },
+        {
+            "name": "🔰时空☪网盘",
+            "key": "SheQuyd",
+            "type": 3,
+            "api": "csp_SheQuydAmns",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0
+        },
+        {
+            "name": "🔰数字☪网盘",
+            "key": "SheQu123",
+            "type": 3,
+            "api": "csp_SheQu123Amns",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0
+        },
+        {
+            "name": "🔰蜗牛☪网盘",
+            "key": "SheQuwon",
+            "type": 3,
+            "api": "csp_SheQuwonAmns",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0
+        },
         {
             "name": "🔰诗海☪网盘",
             "key": "SeedHub",
