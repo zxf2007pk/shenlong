@@ -540,7 +540,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,
-            "ext": "https://nos.netease.com/youdata-netease/public-utilUpload-ky1PAyMa8zMhSwSbYeoej9.gz"
+            "ext": "JPian"
         },
         {
             "name": "🔰热播☪影视",
@@ -550,7 +550,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,
-            "ext": "http://v.rbotv.cn"
+            "ext": "Rbys"
         },
         {
             "name": "🔰金牌☪影视",
@@ -569,7 +569,17 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,
-            "ext": "https://nos.netease.com/youdata-netease/public-utilUpload-dETsDhhkydVym6T7qzn7WB.gz"
+            "ext": "Dubk"
+        },
+	    {
+            "name": "🔰哔嘀☪影视",
+            "key": "Bidys",
+            "type": 3,
+            "api": "csp_BidysAmns",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": "Bidys"
         },
         {
             "name": "🔰场长☪影视",
@@ -623,6 +633,15 @@
             "key": "DMmodu",
             "type": 3,
             "api": "csp_DMmoduAmns",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0
+        },
+		{
+            "name": "🔰青云☪动漫",
+            "key": "DMqingk",
+            "type": 3,
+            "api": "csp_DMqingkAmns",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0
