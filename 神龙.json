@@ -350,25 +350,22 @@
       "filterable": 1,
       "ext": "https://qpcj.69mini.com/api.php/app/"
     },	
-	{
-            "key": "橘汁",
+    {
             "name": "🔰橘汁☪影视",
+            "key": "Woshinidie",
             "type": 3,
-		    "jar": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/jar/潇洒.jar",
-            "api": "csp_AppDrama",
+            "jar": "https://zl.wpscdn.cn/2026/08/08/space_img/36332287-01c5-4b74-85f0-0cb070ddd57a.png;md5;0e457c08ca3c9fa3d949921cb73bb1f5",
+            "api": "csp_Woshinidie",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1,
+            "changeable": 0,
             "ext": {
-                "appName": "橘汁",
-                "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr8SzZhjYy+rsya1K09t8d2K50pWFoBkgUqMpKOiW+3IEVKd4eTdvg9RSOjQ82kypL6R9BnsmrS1V8s4PVDwjQbUtYhTPPC9Hz16qY7rpD6m0d2vr09/UpWQ5uOy9PR0QTrsioveZ+DIe9jc3C+zBCu/kZSY/R8stwJoiitki3gwIDAQAB",
-                "dataKey": "DGVQRUX5R1LWWDLHTGJSUKG1DJRVPQ==",
-                "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
-                "pkg": "com.lxf.snzlcgtzxyx",
-                "host": "",
-                "site": "https://123-1349250429.cos.ap-shanghai.myqcloud.com/app.txt",
-                "version": "3.0.2.1",
-                "decrypt": "1"
+                "abid": "2205",
+                "version": "3.0.2.3",
+                "pkg": "com.mxj.wylcjbxyx",
+                "md5": "090DA8F91D3F60CC6CB250D86F06FE12",
+                "sha1": "3DADB42485B7F864E766479ADA6B1176D81D8D73",
+                "site": "https://123-1349250429.cos.ap-shanghai.myqcloud.com/app.txt"
             }
     },
     {
