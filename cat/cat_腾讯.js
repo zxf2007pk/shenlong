@@ -319,9 +319,13 @@ async function processTabs(data, body) {
         const last = mld[mld.length - 1];
         const mds = last.module_datas;
         if (!mds || !mds.length) return [];
-        const ild = mds[mds.length - 1].item_data_lists.item_datas;
+        const lastMd = mds[mds.length - 1];
+        if (!lastMd.item_data_lists || !lastMd.item_data_lists.item_datas) return [];
+        const ild = lastMd.item_data_lists.item_datas;
         let pdata = ild.slice();
-        const mp = last.module_params || {};
+        // tabs 位于最末 module_datas 的 module_params（与 Python 版一致），
+        // 而非 module_list_datas 层；同时保留外层兜底兼容旧结构
+        const mp = lastMd.module_params || last.module_params || {};
         let tabs = null;
         if (mp.tabs) {
             try { tabs = JSON.parse(mp.tabs); } catch (e) { tabs = null; }

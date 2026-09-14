@@ -272,14 +272,37 @@ async function category(tid, pg, filter, extend) {
 }
 
 /**
- * 详情页：解析剧集列表
+ * 详情页：解析剧集列表（分页拉取全部剧集）
  */
 async function detail(id) {
-    let url = `https://pcweb.api.mgtv.com/episode/list?page=1&size=50&video_id=${id}`;
-    let res = await request(url);
-    let json = JSON.parse(res);
-    
-    let list = json.data.list || [];
+    let allList = [];
+    let totalSeen = 0;
+    let page = 1;
+    let totalPage = 0;
+    // 循环翻页，直到拿满 total 或返回空列表；size 上限为 50，超长剧必须翻页
+    for (; page <= 100; page++) {
+        let url = `https://pcweb.api.mgtv.com/episode/list?page=${page}&size=50&video_id=${id}`;
+        let res = await request(url);
+        let json = JSON.parse(res);
+        let list = (json.data && json.data.list) || [];
+        if (!list.length) break;
+        totalSeen += list.length;
+        totalPage = json.data.total_page || 0;
+        allList = allList.concat(list);
+        if (json.data.total && totalSeen >= json.data.total) break;
+        if (totalPage && page >= totalPage) break;
+        if (!json.data.total && !totalPage && list.length < 50) break;
+    }
+
+    // 按 video_id 去重（翻页可能出现重复条目）
+    let seen = {};
+    let list = [];
+    for (let it of allList) {
+        if (seen[it.video_id]) continue;
+        seen[it.video_id] = 1;
+        list.push(it);
+    }
+
     // 构造播放链接，直接把完整的芒果网页地址传给 play 函数
     let playUrls = _.map(list, (it) => {
         let name = it.t4 || it.t2;
