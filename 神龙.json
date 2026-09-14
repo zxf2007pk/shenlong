@@ -280,7 +280,6 @@
       "name": "🔰山楂☪影视",
       "quickSearch": 1,
       "searchable": 1,
-      "searchable": 1,
       "type": 3
     },
 	{
@@ -310,7 +309,7 @@
             "type": 3,
             "api": "csp_Jpys",
 		    "jar": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/jar/潇洒.jar",
-            "ext": "https://y2s52n7.com,https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
+            "ext": "https://y2s52n7.com,https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.jiabaide.cn"
     },
     {
 			"key": "蓝鹰",
@@ -881,7 +880,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "changeable": 0,
-            ext": "BiliXxue",
+            "ext": "BiliXxue",
             "style": {
                 "type": "rect",
                 "ratio": 1.433
@@ -1125,7 +1124,7 @@
         },
         {
             "name": "Quad9",
-            "url": "https://dns.quad9.net/dns-quer",
+            "url": "https://dns.quad9.net/dns-query",
             "ips": [
                 "9.9.9.9",
                 "149.112.112.112"
