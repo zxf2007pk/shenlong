@@ -187,7 +187,7 @@
       "playerType": 2
     },
     {
-      "api": "./cat/cat_腾讯.js",
+      "api": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/cat/cat_腾讯.js",
       "filterable": 1,
       "key": "cat_腾讯",
       "name": "🔰腾讯☪影视",
@@ -196,7 +196,7 @@
       "type": 3
     },
     {
-      "api": "./cat/cat_奇艺.js",
+      "api": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/cat/cat_奇艺.js",
       "filterable": 1,
       "key": "cat_奇艺",
       "name": "🔰奇艺☪影视",
@@ -205,7 +205,7 @@
       "type": 3
     },
     {
-      "api": "./cat/cat_芒果.js",
+      "api": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/cat/cat_芒果.js",
       "filterable": 1,
       "key": "芒果",
       "name": "🔰芒果☪影视",
@@ -214,7 +214,7 @@
       "type": 3
     },
     {
-      "api": "./cat/cat_优酷.js",
+      "api": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/cat/cat_优酷.js",
       "filterable": 1,
       "key": "cat_优酷.js",
       "name": "🔰优酷☪影视",
@@ -223,7 +223,7 @@
       "type": 3
     },
     {
-      "api": "./cat/cat_搜狗.js",
+      "api": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/cat/cat_搜狗.js",
       "filterable": 1,
       "key": "cat_搜狗",
       "name": "🔰搜狗☪影视",
@@ -232,7 +232,7 @@
       "type": 3
     },
     {
-      "api": "./cat/cat_360.js",
+      "api": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/cat/cat_360.js",
       "filterable": 1,
       "key": "cat_360",
       "name": "🔰六零☪影视",
