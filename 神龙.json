@@ -186,32 +186,59 @@
       "filterable": 1,
       "playerType": 2
     },
-    {
-      "key": "tenteng",
+   {
+      "api": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/cat/cat_腾讯.js",
+      "filterable": 1,
+      "key": "cat_腾讯",
       "name": "🔰腾讯☪影视",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/js/cat_腾讯.js"
+      "quickSearch": 1,
+      "searchable": 1,
+      "type": 3
     },
     {
-      "key": "qiqi",
+      "api": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/cat/cat_奇艺.js",
+      "filterable": 1,
+      "key": "cat_奇艺",
       "name": "🔰奇艺☪影视",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/js/drpy2.min.js",
-      "ext": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/js/奇奇.js"
+      "quickSearch": 1,
+      "searchable": 1,
+      "type": 3
     },
     {
-      "key": "mangmang",
+      "api": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/cat/cat_芒果.js",
+      "filterable": 1,
+      "key": "芒果",
       "name": "🔰芒果☪影视",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/js/drpy2.min.js",
-      "ext": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/js/茫茫.js"
+      "quickSearch": 1,
+      "searchable": 1,
+      "type": 3
     },
     {
-      "key": "youyou",
+      "api": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/cat/cat_优酷.js",
+      "filterable": 1,
+      "key": "cat_优酷.js",
       "name": "🔰优酷☪影视",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/js/drpy2.min.js",
-      "ext": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/js/优优.js"
+      "quickSearch": 1,
+      "searchable": 1,
+      "type": 3
+    },
+    {
+      "api": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/cat/cat_搜狗.js",
+      "filterable": 1,
+      "key": "cat_搜狗",
+      "name": "🔰搜狗☪影视",
+      "quickSearch": 1,
+      "searchable": 1,
+      "type": 3
+    },
+    {
+      "api": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/cat/cat_360.js",
+      "filterable": 1,
+      "key": "cat_360",
+      "name": "🔰六零☪影视",
+	  "quickSearch": 1,
+      "searchable": 1,
+      "type": 3
     },
     {
       "key": "枫叶4k",
