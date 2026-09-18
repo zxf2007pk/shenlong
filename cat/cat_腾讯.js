@@ -149,44 +149,6 @@ async function home() {
     return JSON.stringify({ class: classes, filters: filters });
 }
 
-// 首页推荐：解析 __vikor__context__.ssrPayloads（__INITIAL_STATE__ 已下线）
-async function homeVod() {
-    try {
-        const res = await req(host + '/', { method: 'GET', headers: { 'User-Agent': UA } });
-        const html = res.content !== undefined ? res.content : res.data;
-        const marker = 'window.__vikor__context__.ssrPayloads=';
-        const idx = html.indexOf(marker);
-        if (idx < 0) return JSON.stringify({ list: [] });
-        const expr = extractBalanced(html, idx + marker.length);
-        if (!expr) return JSON.stringify({ list: [] });
-        const payload = eval('(' + expr + ')');
-        const pinia = payload && payload._piniaState ? payload._piniaState : {};
-        const map = (pinia.channelPageData && pinia.channelPageData.channelsModulesMap) || {};
-        const list = [];
-        for (const key of Object.keys(map)) {
-            const cards = map[key].cardListData || [];
-            for (const card of cards) {
-                const focus = card.focusList || [];
-                for (const it of focus) {
-                    if (!it.id || !(it.title || it.mzTitle)) continue;
-                    const tag = parseTags(it.uni_imgtag || it.imgtag);
-                    list.push({
-                        vod_id: it.id,
-                        vod_name: it.mzTitle || it.title,
-                        vod_pic: it.smallCoverPic || it.coverPic,
-                        vod_year: tagText(tag, ['tag_1', '1']),
-                        vod_remarks: tagText(tag, ['tag_4', '4'])
-                    });
-                }
-            }
-        }
-        return JSON.stringify({ list: list });
-    } catch (e) {
-        console.log('homeVod err: ' + e.message);
-        return JSON.stringify({ list: [] });
-    }
-}
-
 // 分类列表（翻页 page 必须为字符串，否则 ret:400；pg=1 不带 page 字段）
 async function category(tid, pg, filter, extend) {
     extend = extend || {};
@@ -319,13 +281,9 @@ async function processTabs(data, body) {
         const last = mld[mld.length - 1];
         const mds = last.module_datas;
         if (!mds || !mds.length) return [];
-        const lastMd = mds[mds.length - 1];
-        if (!lastMd.item_data_lists || !lastMd.item_data_lists.item_datas) return [];
-        const ild = lastMd.item_data_lists.item_datas;
+        const ild = mds[mds.length - 1].item_data_lists.item_datas;
         let pdata = ild.slice();
-        // tabs 位于最末 module_datas 的 module_params（与 Python 版一致），
-        // 而非 module_list_datas 层；同时保留外层兜底兼容旧结构
-        const mp = lastMd.module_params || last.module_params || {};
+        const mp = last.module_params || {};
         let tabs = null;
         if (mp.tabs) {
             try { tabs = JSON.parse(mp.tabs); } catch (e) { tabs = null; }
@@ -420,5 +378,5 @@ function genUuid() {
 }
 
 export function __jsEvalReturn() {
-    return { init: init, home: home, homeVod: homeVod, category: category, detail: detail, play: play, search: search };
+    return { init: init, home: home, category: category, detail: detail, play: play, search: search };
 }
