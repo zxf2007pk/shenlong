@@ -74,16 +74,6 @@
             "ext": "moWobg"
         },
         {
-            "name": "🔰多多☪网盘",
-            "key": "ddWobg",
-            "type": 3,
-            "api": "csp_WobgAmns",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "ext": "ddWobg"
-        },
-        {
             "name": "🔰观影☪网盘",
             "key": "Gying",
             "type": 3,
@@ -272,15 +262,6 @@
         "搜索模式": "1",
         "搜索url": "https://www.maihaolian.com/cupfox-search/{wd}----------{pg}---.html"
       }
-    },
-	{
-      "api": "https://gh.dpik.top/https://github.com/zxf2007pk/shenlong/blob/main/py/山楂.py",
-      "filterable": 1,
-      "key": "山楂4K",
-      "name": "🔰山楂☪影视",
-      "quickSearch": 1,
-      "searchable": 1,
-      "type": 3
     },
 	{
       "key": "苹果",
