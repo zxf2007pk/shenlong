@@ -281,9 +281,11 @@ async function processTabs(data, body) {
         const last = mld[mld.length - 1];
         const mds = last.module_datas;
         if (!mds || !mds.length) return [];
-        const ild = mds[mds.length - 1].item_data_lists.item_datas;
+const lastMod = mds[mds.length - 1];
+        const ild = lastMod.item_data_lists.item_datas;
         let pdata = ild.slice();
-        const mp = last.module_params || {};
+        // tabs 存于最后一个 module_data 的 module_params 中（与 tengxun.js 一致）
+        const mp = (lastMod && lastMod.module_params) || {};
         let tabs = null;
         if (mp.tabs) {
             try { tabs = JSON.parse(mp.tabs); } catch (e) { tabs = null; }
