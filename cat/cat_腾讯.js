@@ -318,8 +318,9 @@ function processPdata(pdata, cid) {
     const ylist = [];
     for (const k of pdata) {
         if (k.item_id) {
-            const params = k.item_params || {};
-            const unionTitle = String(params.union_title || '').replace(/[$#]/g, '_');
+const params = k.item_params || {};
+            // 标题修正：腾讯将斗破苍穹年番第55集起标为"斗破苍穹年番2_xx"，删掉多余的"2"，统一为"斗破苍穹年番_xx"
+            const unionTitle = String(params.union_title || '').replace(/[$#]/g, '_').replace(/^斗破苍穹年番2/, '斗破苍穹年番');
             const pid = unionTitle + '$' + cid + '@' + k.item_id;
             if (unionTitle.indexOf('预告') >= 0) ylist.push(pid);
             else plist.push(pid);
