@@ -336,27 +336,27 @@
       "filterable": 1,
       "ext": "https://qpcj.69mini.com/api.php/app/"
     },	
-    {
-			"key": "橘汁",
-			"name": "🔰橘汁☪影视",
-			"type": 3,
-			"api": "csp_AppDrama",
-		    "jar": "https://gh.dpik.top/https://github.com/zxf2007pk/shenlong/blob/main/jar/潇洒.jar",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"ext": {
-				"appName": "橘汁",
-				"publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr8SzZhjYy+rsya1K09t8d2K50pWFoBkgUqMpKOiW+3IEVKd4eTdvg9RSOjQ82kypL6R9BnsmrS1V8s4PVDwjQbUtYhTPPC9Hz16qY7rpD6m0d2vr09/UpWQ5uOy9PR0QTrsioveZ+DIe9jc3C+zBCu/kZSY/R8stwJoiitki3gwIDAQAB",
-				"dataKey": "OW1WBLFZCLJ0WTNJQMRSZ2DYSGNBPT0=",
-				"dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
-				"pkg": "com.mxj.wylcjbxyx",
-				"host": "",
-				"site": "https://123-1349250429.cos.ap-shanghai.myqcloud.com/app.txt",
-				"version": "3.0.2.4",
-				"decrypt": "1"
-			}
-	},
+	{
+      "key": "橘汁",
+      "name": "🔰橘汁☪影视",
+      "type": 3,
+	 "jar": "https://gh.dpik.top/https://github.com/zxf2007pk/shenlong/blob/main/jar/潇洒.jar",	
+      "api": "csp_AppDrama",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "appName": "橘汁",
+        "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr8SzZhjYy+rsya1K09t8d2K50pWFoBkgUqMpKOiW+3IEVKd4eTdvg9RSOjQ82kypL6R9BnsmrS1V8s4PVDwjQbUtYhTPPC9Hz16qY7rpD6m0d2vr09/UpWQ5uOy9PR0QTrsioveZ+DIe9jc3C+zBCu/kZSY/R8stwJoiitki3gwIDAQAB",
+        "dataKey": "ZU1DSFFWNENKMDYXVUQRN0ZJDUC4PQ==",
+        "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
+        "pkg": "com.asjdhjhd.mgd.p3",
+        "host": "",
+        "site": "https://123-1349250429.cos.ap-shanghai.myqcloud.com/app.txt",
+        "version": "3.0.7.0",
+        "decrypt": "1"
+      }
+    },
     {
       "key": "电影天堂",
       "name": "🔰天堂☪影视",
@@ -1069,49 +1069,11 @@
     "哔 哩 哔 哩"
   ],
     "doh": [
-        {
-            "name": "Google",
-            "url": "https://dns.google/dns-query",
-            "ips": [
-                "8.8.4.4",
-                "8.8.8.8"
-            ]
-        },
-        {
-            "name": "Cloudflare",
-            "url": "https://cloudflare-dns.com/dns-query",
-            "ips": [
-                "1.1.1.1",
-                "1.0.0.1",
-                "2606:4700:4700::1111",
-                "2606:4700:4700::1001"
-            ]
-        },
-        {
-            "name": "AdGuard",
-            "url": "https://dns.adguard.com/dns-query",
-            "ips": [
-                "94.140.14.140",
-                "94.140.14.141"
-            ]
-        },
-        {
-            "name": "DNSWatch",
-            "url": "https://resolver2.dns.watch/dns-query",
-            "ips": [
-                "84.200.69.80",
-                "84.200.70.40"
-            ]
-        },
-        {
-            "name": "Quad9",
-            "url": "https://dns.quad9.net/dns-query",
-            "ips": [
-                "9.9.9.9",
-                "149.112.112.112"
-            ]
-        }
-    ],
+  {"name": "系统", "url": "", "a": "系统", "b": ""},
+  {"name": "腾讯", "url": "https://doh.pub/dns-query", "a": "腾讯", "b": "https://doh.pub/dns-query"},
+  {"name": "阿里", "url": "https://dns.alidns.com/dns-query", "a": "阿里", "b": "https://dns.alidns.com/dns-query"},
+  {"name": "冰封", "url": "https://doh.360.cn/dns-query", "a": "冰封", "b": "https://doh.360.cn/dns-query"}
+],
     "ads": [
         "mozai.4gtv.tv"
     ],
