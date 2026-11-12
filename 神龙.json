@@ -264,25 +264,29 @@
       }
     },
 	{
-      "key": "苹果",
-      "name": "🔰苹果☪影视",
+      "key": "茉莉Get",
+      "name": "🔰茉莉☪影视",
       "type": 3,
-      "jar": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/jar/潇洒.jar",
-      "api": "csp_AppDrama",
+	  "jar": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/jar/潇洒.jar",
+      "api": "csp_AppGet",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {
+        "site": "https://allinadmin.oss-cn-hangzhou.aliyuncs.com/bk/9.txt",
+        "dataKey": "88689667dce61725",
+        "dataIv": "88689667dce61725"
+      }
+    },
+	{
+      "key": "快映fox",
+      "name": "🔰快映☪影视",
+      "type": 3,
+      "api": "csp_AppFox",
+	  "jar": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/jar/潇洒.jar",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "appName": "小苹果",
-        "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCduNEnfxGaLuQRk5ABzXHhPV43zi00sCHjLo8BYc+Wi6xXm2b4v0i28Sq4WlNCKhseft9fz8kO/qLr6/022o1RcuOU7e4GFL3U9WnNODwRBYSYWd+K8nqpI/tAUDmZEBGRWqjrc7x6aMl3A+xpnWkLbPCLsuhbuuUE3tv09oeOpwIDAQAB",
-        "dataKey": "S0VNDTJHOFHHCNMRAW5IV2TOS2PBPQ==",
-        "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
-        "pkg": "com.juechufsh.android.xpg1",
-        "host": "",
-        "site": "https://d.kstore.dev/download/12849/tvbox/lib/app_xpg_android.txt",
-        "version": "1.0.0.3",
-        "decrypt": "0"
-      }
+      "filterable": 0,
+      "ext": "https://www.pjb777.top/ky4kbgq7b273.json"
     },
 	{
             "key": "金牌影视",
@@ -336,27 +340,6 @@
       "filterable": 1,
       "ext": "https://qpcj.69mini.com/api.php/app/"
     },	
-	{
-      "key": "橘汁",
-      "name": "🔰橘汁☪影视",
-      "type": 3,
-	 "jar": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/jar/潇洒.jar",	
-      "api": "csp_AppDrama",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "appName": "橘汁",
-        "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr8SzZhjYy+rsya1K09t8d2K50pWFoBkgUqMpKOiW+3IEVKd4eTdvg9RSOjQ82kypL6R9BnsmrS1V8s4PVDwjQbUtYhTPPC9Hz16qY7rpD6m0d2vr09/UpWQ5uOy9PR0QTrsioveZ+DIe9jc3C+zBCu/kZSY/R8stwJoiitki3gwIDAQAB",
-        "dataKey": "ZU1DSFFWNENKMDYXVUQRN0ZJDUC4PQ==",
-        "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
-        "pkg": "com.asjdhjhd.mgd.p3",
-        "host": "",
-        "site": "https://123-1349250429.cos.ap-shanghai.myqcloud.com/app.txt",
-        "version": "3.0.7.0",
-        "decrypt": "1"
-      }
-    },
     {
       "key": "电影天堂",
       "name": "🔰天堂☪影视",
